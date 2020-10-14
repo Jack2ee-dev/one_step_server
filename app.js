@@ -2,7 +2,7 @@ const express = require('express');
 const morgan = require('morgan');
 const cors = require('cors');
 
-const mysqlConnection = require('./databases/connection');
+const mysqlConnection = require('./databases/mysqlConnection');
 
 const app = express();
 
